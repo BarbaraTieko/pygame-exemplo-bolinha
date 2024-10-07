@@ -11,12 +11,15 @@ def inicializa():
 
     estado = {
         "posicao": [WIDTH/2, HEIGHT/2],
+        "posicao2": [WIDTH/2, HEIGHT/2],
         "comeca_movimento": False,
         "velocidade": [200, 200],
+        "velocidade2": [200, 200],
         "t0": 0,
         "gravidade": 98,
         "resistencia": 0.7,
-        "raio": 10
+        "raio": 10,
+        "raio2": 20
     }
     return window, estado
 
